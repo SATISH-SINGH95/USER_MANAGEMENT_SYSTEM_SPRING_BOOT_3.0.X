@@ -10,7 +10,7 @@ import lombok.Data;
 @Data
 @Entity
 public class UserInfo {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
@@ -19,5 +19,7 @@ public class UserInfo {
 	private String mobileNumber;
 	private String password;
 	private String role;
+
+
 
 }
