@@ -7,11 +7,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/admin")
 public class AdminController {
-	
+
 	@GetMapping("/")
 	public String home() {
 		return "admin/home";
 	}
+
+	// new line added in admin controller
 
 }
 
